@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-stream-rabbitmq-consumer-8803" />
+        <module name="cloud-stream-rabbitmq-consumer-8802" />
+        <module name="springcloud-alibaba-nacos-consumer-83" />
+        <module name="demo" />
+        <module name="api-commons" />
+        <module name="springcloud-alibaba-sentinelService8401" />
+        <module name="eureka-servere-7002" />
+        <module name="springcloud-alibaba-config-nacos-client3377" />
+        <module name="consumer-feign-order-80" />
+        <module name="springcloud-alibaba-sentinel-provider-9004" />
+        <module name="provider-payment-8003" />
+        <module name="provider-payment-8001" />
+        <module name="consumer-consul-order-80" />
+        <module name="consumer-order-80" />
+        <module name="consumer-hystrix-order-80" />
+        <module name="springcloud-alibaba-nacos-provider-9002" />
+        <module name="springcloud-alibaba-nacos-provider-9001" />
+        <module name="seata-order-service-2001" />
+        <module name="seata-storage-service-2002" />
+        <module name="consumer-zk-80" />
+        <module name="consumer-ribbon-80" />
+        <module name="eureka-server-7001" />
+        <module name="springcloud-alibaba-sentinel-provider-9003" />
+        <module name="provider-zk-8004" />
+        <module name="hystrix-dashboard-9001" />
+        <module name="cloud-config-consumer-3355" />
+        <module name="seata-account-service-2003" />
+        <module name="provider-consul-payment-8005" />
+        <module name="gateway-9527" />
+        <module name="springcloud-alibaba-sentinel-consumer-84" />
+        <module name="cloud-stream-rabbitmq-provider-8801" />
+        <module name="cloud-config-consumer-3366" />
+        <module name="awd" />
+        <module name="hystrix-payment-8001" />
+        <module name="8002" />
+        <module name="cloud-config-3344" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="8002" target="1.8" />
+      <module name="awd" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="payment-8001" target="1.8" />
+      <module name="provider-payment-8002" target="1.8" />
+      <module name="seata-order-service-2004" target="1.8" />
+      <module name="seata-order-service2001" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+    </option>
+  </component>
+</project>
